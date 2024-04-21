@@ -1,0 +1,33 @@
+ABSOLUTE VS RELATIVE PATHS
+Starting from /Users/nelle/data, which of the following commands could Nelle use to navigate to her home directory, which is /Users/nelle?
+
+cd .
+cd /
+cd /home/nelle
+cd ../..
+cd ~
+cd home
+cd ~/data/..
+cd
+cd ..
+
+Show me the solution
+No: . stands for the current directory.
+No: / stands for the root directory.
+No: Nelle’s home directory is /Users/nelle.
+No: this command goes up two levels, i.e. ends in /Users.
+Yes: ~ stands for the user’s home directory, in this case /Users/nelle.
+No: this command would navigate into a directory home in the current directory if it exists.
+Yes: unnecessarily complicated, but correct.
+Yes: shortcut to go back to the user’s home directory.
+Yes: goes up one level.
+CONTROL, CTRL, OR ^ KEY
+The Control key is also called the ‘Ctrl’ key. There are various ways in which using the Control key may be described. For example, you may see an instruction to press the Control key and, while holding it down, press the X key, described as any of:
+--All are same--[saving-everything-in-the-text-editor]--Control-X
+Control+X
+Ctrl-X
+Ctrl+X
+^X
+C-x
+--recall--
+Recall that .. refers to the parent directory (i.e. one above the current directory) and that . refers to the current directory.
